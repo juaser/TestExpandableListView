@@ -8,6 +8,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.zxl.testexpandablelistview.constcts.ContactActivity;
+import com.zxl.testexpandablelistview.simple.SimpleExpandActivity;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,11 +39,13 @@ public class MainActivity extends Activity {
     public void initActivity() {
         activitys = new ArrayList<>();
         activitys.add(SimpleExpandActivity.class);
+        activitys.add(ContactActivity.class);
     }
 
     public void initItems() {
         items = new ArrayList<>();
         items.add("简单的ExpandListView");
+        items.add("简单的通讯录");
     }
 
     public void initView() {

@@ -1,8 +1,10 @@
-package com.zxl.testexpandablelistview;
+package com.zxl.testexpandablelistview.simple;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ExpandableListView;
+
+import com.zxl.testexpandablelistview.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +13,9 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
- * Created by JianQiang on 2016/7/23.
+ * @类说明：
+ * @author：zxl
+ * @CreateTime 2016/7/23.
  */
 public class SimpleExpandActivity extends Activity {
     @Bind(R.id.expand_simple)

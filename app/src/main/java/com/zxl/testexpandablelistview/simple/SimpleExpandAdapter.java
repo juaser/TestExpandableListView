@@ -1,4 +1,4 @@
-package com.zxl.testexpandablelistview;
+package com.zxl.testexpandablelistview.simple;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,10 +7,14 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 
+import com.zxl.testexpandablelistview.R;
+
 import java.util.List;
 
 /**
- * Created by JianQiang on 2016/7/23.
+ * @类说明：
+ * @author：zxl
+ * @CreateTime 2016/7/23.
  */
 public class SimpleExpandAdapter extends BaseExpandableListAdapter {
     private Context context;
